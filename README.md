@@ -8,3 +8,5 @@
  * JS 模板字符串
  * Math.ceil
  * 浮点数运算精度问题
+
+本项目的 start.ts 类似 eecs183-p1 原始版 focaccia.cpp, 最终把它完成为 focaccia.ts
