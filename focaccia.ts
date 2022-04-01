@@ -4,7 +4,7 @@ const prompt = PromptSync({
     sigint: true
 });
 
-function main(): number {
+(function() {
 
     const peopleInput = prompt('How many people do you need to serve? ');
     const peopleNum = parseInt(peopleInput);
@@ -55,12 +55,10 @@ Total expected cost of ingredients: $${cost}\n\
 Have a great party!`);
 
     return 0;
-}
+})();
 
 // ----------------------------------------------
 // *** DO NOT CHANGE ANYTHING BELOW THIS LINE ***
-
-main();
 
 /**
  * Returns the singular or plural form of a word, based on number
